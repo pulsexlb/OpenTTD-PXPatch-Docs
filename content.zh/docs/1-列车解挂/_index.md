@@ -1,3 +1,5 @@
+# 第一章 列车解挂
+
 *注：列车对接与解挂功能原创于 [OpenTTD YPS 补丁](https://github.com/dylansan/OpenTTD-YPS/tree/Decouple)，px-patch 在此补丁的基础上，进行了新版移植于功能完善。*
 
 OpenTTD px-patch 为 OpenTTD 实现了列车对接与解挂的功能，玩家可以在车站中让两辆列车对接或解挂，调整编组，调度计划等。
