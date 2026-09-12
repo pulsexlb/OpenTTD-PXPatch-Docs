@@ -1,8 +1,8 @@
 baseURL: http://0.0.0.0:1313/
-title: Documentation
+title: PX-Patch Docs
 theme: hugo-book
 
-copyright: "This is a copyright placeholder"
+copyright: "CC BY-NC-SA By PulseX"
 
 # Book configuration
 disablePathToLower: true
@@ -18,24 +18,15 @@ markup:
   highlight:
     style: base16-snazzy
 
-# Multi-lingual mode config
-# There are different options to translate files
-# See https://gohugo.io/content-management/multilingual/#translation-by-filename
-# And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
-# languages:
-#   en:
-#     languageName: English
-#     contentDir: content
-#     weight: 1
-#   zh:
-#     languageName: Chinese
-#     contentDir: content.zh
-#     weight: 2
-#   he:
-#     languageName: Hebrew
-#     contentDir: content.he
-#     languageDirection: rtl
-#     weight: 3
+languages:
+  en:
+    languageName: English
+    contentDir: content
+    weight: 1
+  zh:
+    languageName: Chinese
+    contentDir: content.zh
+    weight: 2
 
 menu:
   home:
@@ -43,13 +34,13 @@ menu:
       pageRef: "/docs/"
       weight: 10
     - name: "Github"
-      url: "https://github.com/alex-shpak/hugo-book/"
+      url: "https://github.com/pulsexlb/OpenTTD-patches/"
       weight: 20
 
   # before: []
   after:
     - name: "Github"
-      url: "https://github.com/alex-shpak/hugo-book"
+      url: "https://github.com/pulsexlb/OpenTTD-patches"
       weight: 10
 
 taxonomies:
@@ -58,7 +49,7 @@ taxonomies:
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
-  BookTheme: "light"
+  BookTheme: "auto"
 
   # (Optional, default none) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
